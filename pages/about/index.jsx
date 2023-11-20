@@ -53,7 +53,7 @@ const About = () => {
                                 <div className="flex flex-wrap gap-5 justify-center md:justify-between items-center">
 
 
-                                    <div className="md:w-[45%]">
+                                    <div className="w-[80%] md:w-[45%]">
                                         <Image
                                             src="/assets/img/ibrahim-kurut.jpg"
                                             width={500}
@@ -65,50 +65,50 @@ const About = () => {
                                     </div>
 
 
-                                    <div className="w-full md:w-[45%] text-[16px] md:text-base lg:text-2xl ">
+                                    <div className="w-full md:w-[45%] text-[14px] md:text-base lg:text-2xl ">
                                         <p>
-                                            <span className="text-secondary font-semibold">Birthday</span>
+                                            <span className="text-secondary">Birthday</span>
                                             <span>
                                                 : 04 / 06 / 1989
                                             </span>
                                         </p>
                                         <p>
-                                            <span className="text-secondary font-semibold">Website</span>
+                                            <span className="text-secondary">Website</span>
                                             <span>
                                                 : www.domain.com
                                             </span>
                                         </p>
                                         <p>
-                                            <span className="text-secondary font-semibold">Emaill</span>
+                                            <span className="text-secondary">Emaill</span>
                                             <span>
                                                 : ibrahim.kurut89@gmail.com
                                             </span>
                                         </p>
                                         <p>
-                                            <span className="text-secondary font-semibold">Language</span> <span>
+                                            <span className="text-secondary">Language</span> <span>
                                                 : Arabic - Turkish - English
                                             </span>
                                         </p>
                                         <p>
-                                            <span className="text-secondary font-semibold">Phone</span>
+                                            <span className="text-secondary">Phone</span>
                                             <span>
                                                 :090 505 880 11 81
                                             </span>
                                         </p>
                                         <p>
-                                            <span className="text-secondary font-semibold">Work</span>
+                                            <span className="text-secondary">Work</span>
                                             <span>
                                                 : front-end developer
                                             </span>
                                         </p>
                                         <p>
-                                            <span className="text-secondary font-semibold">City</span>
+                                            <span className="text-secondary">City</span>
                                             <span className='capitalize'>
                                                 : turkey - ankara
                                             </span>
                                         </p>
                                         <p>
-                                            <span className="text-secondary font-semibold">Freelance</span> <span>
+                                            <span className="text-secondary">Freelance</span> <span>
                                                 : Available
                                             </span>
                                         </p>
