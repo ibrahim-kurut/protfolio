@@ -65,7 +65,7 @@ const About = () => {
                                     </div>
 
 
-                                    <div className="w-full md:w-[45%] text-[14px] md:text-base lg:text-2xl ">
+                                    <div className="w-full md:w-[45%] text-[16px] md:text-base lg:text-2xl ">
                                         <p>
                                             <span className="text-secondary font-semibold">Birthday</span>
                                             <span>
