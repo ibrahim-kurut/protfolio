@@ -53,14 +53,11 @@ const index = () => {
                                     As a front-end developer, I specialize in creating user interfaces and building attractive, responsive websites with different screens using HTML, CSS, and JavaScript. . Working with front-end frameworks such as React.js and Next.js
                                 </p>
                                 {/* ServiceCard */}
-                                <div className="flex flex-wrap gap-3 justify-around items-center py-6 px-3 rounded-xl bg-secondary">
+                                <div className="flex flex-wrap gap-3 justify-around items-center md:py-6 md:px-3 py-3 px-[5px] rounded-xl bg-secondary text-xs md:text-lg">
 
                                     {
                                         cardData?.map((item) => {
                                             return (
-
-
-
                                                 <ServiceCard key={item.id}
                                                     cardTitle={item.title}
                                                     cardIcon={item.icon}

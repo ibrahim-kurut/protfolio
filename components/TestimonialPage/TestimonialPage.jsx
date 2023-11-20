@@ -21,14 +21,14 @@ const TestimonialPage = () => {
             name: "Nawaf Alabdullah",
             jobTitle: "QM Senior Manager | IT Engineer",
             imageSrc: "/assets/img/nawaf-alabdullah.jpeg",
-            description: "The service is exceptional! It is characterized by professionalism and high quality. You showed great interest in meeting my needs and providing innovative solutions. A wonderful and satisfying experience by all accounts."
+            description: "The service is exceptional! It is characterized by professionalism and high quality."
         },
         {
             id: 2,
             name: "muhammed ameen",
             jobTitle: "Owner of Western Home Improvement Inc",
             imageSrc: "/assets/img/emin.jpg",
-            description: "I am very satisfied with this client's services. It is distinguished by a high level of professionalism and mastery of its duties. His elegant handling and quick response made the experience of working with him enjoyable and fruitful. Highly recommended and I look forward to dealing with him again."
+            description: "I am very satisfied with your services. I highly recommend him and look forward to doing business with him again."
         },
         // {
         //     id: 3,
@@ -58,31 +58,24 @@ const TestimonialPage = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
+                <div>
+                    {
+                        customers.map((customer) => {
+                            return (
+                                <SwiperSlide key={customer.id}>
+                                    {/* imgSrc, jobTitlt, description */}
+                                    <TestimonialCard
 
-
-
-                {
-                    customers.map((customer) => {
-                        return (
-                            <SwiperSlide key={customer.id}>
-                                {/* imgSrc, jobTitlt, description */}
-                                <TestimonialCard
-
-                                    imgSrc={customer.imageSrc}
-                                    customerName={customer.name}
-                                    jobTitlt={customer.jobTitle}
-                                    description={customer.description}
-                                />
-                            </SwiperSlide>
-                        )
-                    })
-                }
-
-
-
-
-
-
+                                        imgSrc={customer.imageSrc}
+                                        customerName={customer.name}
+                                        jobTitlt={customer.jobTitle}
+                                        description={customer.description}
+                                    />
+                                </SwiperSlide>
+                            )
+                        })
+                    }
+                </div>
             </Swiper>
         </>
     );

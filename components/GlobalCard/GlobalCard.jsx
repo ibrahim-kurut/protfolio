@@ -4,8 +4,8 @@ import React from 'react'
 const GlobalCard = ({ cardTitle, cardIcon, addStyle, linkNane, url }) => {
     return (
         <>
-            <div className={`${addStyle} w-60 bg-primary flex flex-col items-center py-2  rounded-lg shadow-lg`}>
-                <span className="w-[3rem] h-[3rem] rounded-full bg-secondary text-primary flex items-center justify-center text-3xl animate-pulse">
+            <div className={`${addStyle} w-60 text-center bg-primary flex flex-col items-center py-2  rounded-lg shadow-lg`}>
+                <span className="w-[1.5rem] h-[1.5rem] rounded-full bg-secondary text-primary flex items-center justify-center md:w-[3rem] md:h-[3rem] md:text-3xl animate-pulse">
                     {cardIcon}
                 </span>
                 <h1 className="capitalize mt-2">

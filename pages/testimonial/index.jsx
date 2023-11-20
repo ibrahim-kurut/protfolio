@@ -35,7 +35,9 @@ const index = () => {
                                 <p className=" my-5 sm:text-lg">
                                     Some of the works that I have created
                                 </p>
-                                <TestimonialPage />
+                                <div>
+                                    <TestimonialPage />
+                                </div>
                             </div>
                             <div className="flex justify-around items-center mt-8 md:mt-20">
                                 <Link href="/skills"><Prev /></Link>
