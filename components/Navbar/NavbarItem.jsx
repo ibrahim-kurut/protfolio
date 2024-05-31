@@ -34,6 +34,11 @@ const NavbarItem = () => {
             id: 6,
             name: "testimonial",
             url: "/testimonial"
+        },
+        {
+            id: 7,
+            name: "project",
+            url: "/project"
         }
     ]
     return (
