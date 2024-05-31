@@ -30,7 +30,7 @@ const ProjectCard = () => {
                     return (
                         <div
                             key={project.id}
-                            className="main_box border border-secondary p-1 rounded-lg overflow-hidden text-white w-[100%] h-[350px] md:w-[30%]">
+                            className="main_box border border-secondary p-1 rounded-lg overflow-hidden text-white w-[100%] h-[250px] md:h-[350px] md:w-[30%] my-2">
                             <Image
                                 src={project.image}
                                 width={500}
