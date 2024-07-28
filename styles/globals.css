@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+.myproject {
+    width: 100% !important;
+}
 
 .swiper {
     width: 100%;

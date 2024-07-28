@@ -1,9 +1,11 @@
+import Prev from '@/components/Directing/Prev'
 import SectionContetnt from '@/components/SectionContetnt/SectionContetnt'
 import SectionTitle from '@/components/SectionTitle/SectionTitle'
 import TestimonialCard from '@/components/TestimonialPage/TestimonialCard'
 import ProjectCard from '@/components/project-card/ProjectCard'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const index = () => {
@@ -31,6 +33,10 @@ const index = () => {
 
                         <div className="mt-8">
                             <ProjectCard />
+                        </div>
+                        <div className="flex justify-around items-center mt-8 md:mt-20">
+                            <Link href="/testimonial"><Prev /></Link>
+
                         </div>
                     </div>
 

@@ -6,6 +6,7 @@ import Link from 'next/link'
 import React from 'react'
 import SectionContetnt from '@/components/SectionContetnt/SectionContetnt'
 import TestimonialPage from '@/components/TestimonialPage/TestimonialPage'
+import Next from '@/components/Directing/Next'
 const index = () => {
 
 
@@ -41,7 +42,7 @@ const index = () => {
                             </div>
                             <div className="flex justify-around items-center mt-8 md:mt-20">
                                 <Link href="/skills"><Prev /></Link>
-
+                                <Link href="/project"><Next /></Link>
                             </div>
                         </div>
                     </SectionContetnt>
