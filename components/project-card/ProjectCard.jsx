@@ -17,6 +17,12 @@ const ProjectCard = () => {
             url: "https://movie-app-reactjs-chi.vercel.app/",
             image: "/assets/img/movie.png",
         },
+        {
+            id: 3,
+            name: "coffee",
+            url: "https://coffee-three-beta.vercel.app/",
+            image: "/assets/img/coffee.png",
+        },
 
     ]
 
