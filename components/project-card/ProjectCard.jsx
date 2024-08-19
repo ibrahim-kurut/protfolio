@@ -38,6 +38,13 @@ const ProjectCard = () => {
             url: "https://coffee-three-beta.vercel.app/",
             image: "/assets/img/coffee.png",
         },
+        {
+            id: 4,
+            name: "demo",
+            description: "Create a static coffee shop website with reactjs and bootstrap",
+            url: "https://calculator-livid-seven-89.vercel.app/",
+            image: "/assets/img/calculator.png",
+        },
 
     ]
 
