@@ -61,13 +61,13 @@ const index = () => {
             </div>
             <div className="flex justify-center gap-5 w-[50%] mx-auto">
 
-              <Link href="/assets/img/ibrahim-kurut-cv.jpg">
+              <Link href="/assets/img/frontend-developer-cv.jpg">
                 <Btn btnTitle="download cv" target='_blank' download />
               </Link>
 
 
 
-              <Link href="/assets/img/ibrahim-kurut-cv.jpg" target='_blank'>
+              <Link href="/assets/img/frontend-developer-cv.jpg" target='_blank'>
                 <Btn btnTitle="show cv" />
               </Link>
 
