@@ -45,6 +45,13 @@ const ProjectCard = () => {
             url: "https://calculator-livid-seven-89.vercel.app/",
             image: "/assets/img/calculator.png",
         },
+        {
+            id: 5,
+            name: "demo",
+            description: "Create a fullstack notebook project using React.js and Django REST Framework",
+            url: "https://notebooktest.vercel.app/",
+            image: "/assets/img/notebook.png",
+        },
 
     ]
 
