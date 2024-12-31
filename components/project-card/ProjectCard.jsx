@@ -21,7 +21,8 @@ const ProjectCard = () => {
             id: 1,
             name: "weather app",
             demo: "demo",
-            code: "code",
+            github: "code",
+            code_url: "https://github.com/ibrahim-kurut/React-Weather-App",
             description: "Create a weather app using react js and tailwindcss with fetching data from openweathermap",
             url: "https://react-weather-app-omega-three.vercel.app/",
             image: "/assets/img/weather.png",
@@ -30,7 +31,8 @@ const ProjectCard = () => {
             id: 2,
             name: "show movie app",
             demo: "demo",
-            code: "code",
+            github: "code",
+            code_url: "https://github.com/ibrahim-kurut/movie-app-reactjs",
             description: "Create a movie website with reactjs and bootstrap with a movie search feature and a link to the movie details",
             url: "https://movie-app-reactjs-chi.vercel.app/",
             image: "/assets/img/movie.png",
@@ -39,7 +41,8 @@ const ProjectCard = () => {
             id: 3,
             name: "coffee shop",
             demo: "demo",
-            code: "code",
+            github: "code",
+            code_url: "https://github.com/ibrahim-kurut/coffee-react",
             description: "Create a static coffee shop website with reactjs and bootstrap",
             url: "https://coffee-three-beta.vercel.app/",
             image: "/assets/img/coffee.png",
@@ -48,7 +51,8 @@ const ProjectCard = () => {
             id: 4,
             name: "calculator app",
             demo: "demo",
-            code: "code",
+            github: "code",
+            code_url: "https://github.com/ibrahim-kurut/calculator",
             description: "Create a calculator with html, css and javascript ",
             url: "https://calculator-livid-seven-89.vercel.app/",
             image: "/assets/img/calculator.png",
@@ -57,7 +61,8 @@ const ProjectCard = () => {
             id: 5,
             name: "notebook app",
             demo: "demo",
-            code: "code",
+            github: "code",
+            code_url: "https://github.com/ibrahim-kurut/notebooktest",
             description: "Create a fullstack notebook project using React.js and Django REST Framework",
             url: "https://notebooktest.vercel.app/",
             image: "/assets/img/notebook.png",
@@ -66,7 +71,8 @@ const ProjectCard = () => {
             id: 6,
             name: "blog app",
             demo: "demo",
-            code: "code",
+            github: "code",
+            code_url: "https://github.com/ibrahim-kurut/blog_demo",
             description: "Create a fullstack blog app project using React.js and Django REST Framework",
             url: "https://blog-demo-pink-two.vercel.app/",
             image: "/assets/img/blog.jpg",
@@ -116,14 +122,18 @@ const ProjectCard = () => {
                                     </div>
 
                                     <div className="desc">
-                                        <p className="text-lg capitalize text-gray-200">{project.name}</p>
+                                        <p className="text-lg capitalize text-secondary">{project.name}</p>
                                         <p className="text-sm text-gray-400">{project.description}</p>
                                     </div>
-                                    <Link href={project.url} target="_blank" className="flex justify-center gap-5">
-                                        <div className="project_name text-center text-secondary capitalize text-lg">{project.demo}</div>
-                                        <div className="project_name text-center text-secondary capitalize text-lg">{project.code}</div>
-
-                                    </Link>
+                                    {/* links */}
+                                    <div className="flex justify-center gap-3 mt-10">
+                                        <Link href={project.url} target="_blank">
+                                            <div className="project_name text-center text-secondary capitalize text-sm">{project.demo}</div>
+                                        </Link>
+                                        <Link href={project.code_url} target="_blank">
+                                            <div className="project_name text-center text-secondary capitalize text-sm">{project.github}</div>
+                                        </Link>
+                                    </div>
                                 </SwiperSlide>
                             )
                         })
