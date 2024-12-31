@@ -19,38 +19,57 @@ const ProjectCard = () => {
     const projects = [
         {
             id: 1,
-            name: "demo",
+            name: "weather app",
+            demo: "demo",
+            code: "code",
             description: "Create a weather app using react js and tailwindcss with fetching data from openweathermap",
             url: "https://react-weather-app-omega-three.vercel.app/",
             image: "/assets/img/weather.png",
         },
         {
             id: 2,
-            name: "demo",
+            name: "show movie app",
+            demo: "demo",
+            code: "code",
             description: "Create a movie website with reactjs and bootstrap with a movie search feature and a link to the movie details",
             url: "https://movie-app-reactjs-chi.vercel.app/",
             image: "/assets/img/movie.png",
         },
         {
             id: 3,
-            name: "demo",
+            name: "coffee shop",
+            demo: "demo",
+            code: "code",
             description: "Create a static coffee shop website with reactjs and bootstrap",
             url: "https://coffee-three-beta.vercel.app/",
             image: "/assets/img/coffee.png",
         },
         {
             id: 4,
-            name: "demo",
-            description: "Create a static coffee shop website with reactjs and bootstrap",
+            name: "calculator app",
+            demo: "demo",
+            code: "code",
+            description: "Create a calculator with html, css and javascript ",
             url: "https://calculator-livid-seven-89.vercel.app/",
             image: "/assets/img/calculator.png",
         },
         {
             id: 5,
-            name: "demo",
+            name: "notebook app",
+            demo: "demo",
+            code: "code",
             description: "Create a fullstack notebook project using React.js and Django REST Framework",
             url: "https://notebooktest.vercel.app/",
             image: "/assets/img/notebook.png",
+        },
+        {
+            id: 6,
+            name: "blog app",
+            demo: "demo",
+            code: "code",
+            description: "Create a fullstack blog app project using React.js and Django REST Framework",
+            url: "https://blog-demo-pink-two.vercel.app/",
+            image: "/assets/img/blog.jpg",
         },
 
     ]
@@ -95,11 +114,14 @@ const ProjectCard = () => {
                                         />
 
                                     </div>
+
                                     <div className="desc">
+                                        <p className="text-lg capitalize text-gray-200">{project.name}</p>
                                         <p className="text-sm text-gray-400">{project.description}</p>
                                     </div>
-                                    <Link href={project.url} target="_blank">
-                                        <div className="project_name text-center text-secondary capitalize text-lg">{project.name}</div>
+                                    <Link href={project.url} target="_blank" className="flex justify-center gap-5">
+                                        <div className="project_name text-center text-secondary capitalize text-lg">{project.demo}</div>
+                                        <div className="project_name text-center text-secondary capitalize text-lg">{project.code}</div>
 
                                     </Link>
                                 </SwiperSlide>
