@@ -30,7 +30,7 @@ const About = () => {
             </Head>
             <div className=" h-[calc(100vh_-_100px)]">
                 <div className="relative ">
-                    <div className=" absolute top-0 left-0 w-full h-[calc(100vh_-_100px)] bg-primary opacity-90"></div>
+                    <div className=" absolute top-0 left-0 w-full h-[100vh] bg-primary opacity-90"></div>
                     {/* Hero */}
                     <Image
                         src="/assets/img/hero.jpg"
@@ -38,7 +38,7 @@ const About = () => {
                         height={428}
                         alt='hero'
                         priority
-                        className="w-full h-[calc(100vh_-_100px)]"
+                        className="w-full h-[100vh]"
                     />
                     <SectionContetnt addStyle="md:mt-16">
                         <SectionTitle SectionTitle="about me" />
