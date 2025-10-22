@@ -41,7 +41,7 @@ const Navbar = () => {
                 {/* =========== Navbar Item =========== */}
                 <div className={`w-full block flex-grow lg:flex  lg:items-center lg:w-auto ${isOpen ? 'hidden' : 'block'}`}>
                     <div className="text-sm w-[90%] lg:flex justify-center">
-                        <NavbarItem />
+                        <NavbarItem toggleMenu={toggleMenu} />
                     </div>
                 </div>
             </nav>

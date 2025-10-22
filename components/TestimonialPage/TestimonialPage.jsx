@@ -30,14 +30,14 @@ const TestimonialPage = () => {
             imageSrc: "/assets/img/emin.jpg",
             description: "I am very satisfied with your services. I highly recommend him and look forward to doing business with him again."
         },
-        // {
-        //     id: 3,
-        //     name: "yousif kassab",
-        //     jobTitle: "jobTitle",
-        //     imageSrc: "/assets/img/user2.png",
-        //     description: "The service provided to customers reflects the highest levels of professionalism and quality. He has deep knowledge in the field and responds quickly to all inquiries. A great experience worth recommending to everyone.."
+        {
+            id: 3,
+            name: "pakize kilic",
+            jobTitle: "back-end web developer",
+            imageSrc: "/assets/img/pakizekilic.jpeg",
+            description: "Sakarya Üniversitesi"
 
-        // }
+        }
     ]
 
 

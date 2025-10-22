@@ -23,9 +23,6 @@ const About = () => {
     }, [])
 
 
-
-
-
     return (
         <>
             <Head>
@@ -48,7 +45,13 @@ const About = () => {
                         <div className="container mx-auto text-text_color ">
                             <div className="w-[95%] mx-auto">
                                 <p className=" my-5 sm:text-lg">
-                                    I'am Ibrahim Kurut I Have Experinces In Front End Web Developer And Graphic Designer I Have Worked In This Field For <span className="text-secondary">{experience} Years</span>
+                                    🚀 Full-Stack Web Developer | React.js | Next.js | Express.js | Prisma
+
+                                    💡 Passionate about building modern, scalable, and high-performance web applications.
+                                    🎨 Front-End: Crafting responsive, elegant, and dynamic user interfaces using React.js and Next.js.
+                                    🛠️ Back-End: Developing robust and maintainable APIs with Express.js and Prisma ORM, following clean architecture principles.
+                                    ⚙️ Committed to delivering efficient digital solutions that enhance user experience and create real business value.
+                                    📈 Always learning, improving, and pushing boundaries in modern web development. I Have Worked In This Field For <span className="text-secondary">{experience} Years</span>
                                 </p>
                                 <div className="flex flex-wrap gap-5 justify-center md:justify-between items-center">
 
@@ -92,19 +95,19 @@ const About = () => {
                                         <p>
                                             <span className="text-secondary">Phone</span>
                                             <span>
-                                                :090 505 880 11 81
+                                                :+964 770 936 70 18
                                             </span>
                                         </p>
                                         <p>
                                             <span className="text-secondary">Work</span>
                                             <span>
-                                                : front-end developer
+                                                : full stack web developer
                                             </span>
                                         </p>
                                         <p>
                                             <span className="text-secondary">City</span>
                                             <span className='capitalize'>
-                                                : turkey - ankara
+                                                : iraq - mosul
                                             </span>
                                         </p>
                                         <p>

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-const NavbarItem = () => {
+const NavbarItem = ({ toggleMenu }) => {
     const router = useRouter()
     // console.log(router);
     const items = [
@@ -48,6 +48,7 @@ const NavbarItem = () => {
                     return (
                         <Link key={item.id}
                             href={item.url}
+                            onClick={toggleMenu}
                             className={`${router.asPath == item.url ? "text-secondary" : "text-white"} capitalize block lg:inline-block lg:mt-0  mr-4 py-2 hover:text-secondary`}>
                             {item.name}
                         </Link>
